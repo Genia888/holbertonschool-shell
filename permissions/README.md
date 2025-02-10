@@ -33,7 +33,6 @@ Write a script that adds execute permission to the owner and the group owner, an
 #!/bin/bash
 chmod ug+x+o+r
 
-
 7. Everybody!
 Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 #!/bin/bash
@@ -54,4 +53,5 @@ Write a script that sets the mode of the file hello the same as olleh mode
 #!/bin/bash
 chmod --reference=olleh hello
 
-
+11. Directories
+Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be chaged
