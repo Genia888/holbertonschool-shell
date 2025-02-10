@@ -49,3 +49,9 @@ Write a script that sets the mode of the file hello
 #!/bin/bash
 chmod 753 hello
 
+10. Look in the mirror
+Write a script that sets the mode of the file hello the same as olleh mode
+#!/bin/bash
+chmod --reference=olleh hello
+
+
