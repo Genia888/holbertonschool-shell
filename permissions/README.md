@@ -43,3 +43,9 @@ chmod ugo+x hello
 Write a script that sets the permission to the file hello as follows:
 #!/bin/bash
 chmod 007 hello
+
+9. John Doe
+Write a script that sets the mode of the file hello
+#!/bin/bash
+chmod 753 hello
+
