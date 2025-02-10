@@ -66,3 +66,7 @@ Write a script that changes the group owner to school for the file hello
 #!/bin/bash
 chgrp school hello
 
+14. Owner and group
+Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+#!/bin/bash
+chown -R vincent:staff .
