@@ -38,3 +38,8 @@ chmod ug+x+o+r
 Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 #!/bin/bash
 chmod ugo+x hello
+
+8. James Bond
+Write a script that sets the permission to the file hello as follows:
+#!/bin/bash
+chmod 007 hello
