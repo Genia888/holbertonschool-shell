@@ -75,3 +75,8 @@ chown -R vincent:staff .
 Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
 #!/bin/bash
 chown -h vincent:staff _hello
+
+16. If only
+Write a script that changes the owner of the file hello to vincent only if it is owned by the user guillaume.
+#!/bin/bash
+chown vincent:hello guillaume
