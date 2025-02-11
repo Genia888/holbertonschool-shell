@@ -13,4 +13,9 @@ Display the content of the /etc/passwd file.
 #!/bin/bash
 cat /etc/passwd file.
 
+3. What about 2?
+Display the content of /etc/passwd and /etc/hosts
+#!/bin/bash
+cat /etc/passwd /etc/hosts
+
 
