@@ -33,4 +33,9 @@ Write a script that displays the third line of the file iacta.
 #!/bin/bash
 head -n 3 iacta | tail -n 1
 
+7. It is a good file that cuts iron without making a noise
+Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+#!/bin/bash
+echo Best School > '\*\\\\\'"Best School"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:)'
+
 
